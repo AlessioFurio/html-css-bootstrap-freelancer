@@ -1,0 +1,89 @@
+
+
+.navbar-default {
+    background-color: #2c3e50;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-brand  {
+    height: 100%;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 24px 24px;
+}
+
+.navbar-default .navbar-brand,
+.collapse.navbar-collapse ul li a {
+    color: #fff;
+}
+
+.collapse.navbar-collapse ul {
+    padding: 24px 16px;
+}
+
+.collapse.navbar-collapse ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.collapse.navbar-collapse ul li a:hover{
+    color: rgb(26, 188, 156);
+}
+
+.jumbo {
+    background-color: rgb(26, 188, 156);
+}
+
+.container-jumbo {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.logo-jumbo {
+    width: 240px;
+    height: 255px;
+    display: inline-block;
+}
+
+.container-jumbo h1 {
+    max-width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.container-jumbo i {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.star-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    max-width: 10%;
+    height: 5px;
+    margin: 0 10px;
+}
+
+.container-jumbo p {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
