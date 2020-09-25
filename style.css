@@ -8,13 +8,41 @@
     margin-bottom: 0px;
 }
 
+.navbar-default .navbar-toggle {
+    background-color: rgb(26, 188, 156);
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #148f77;
+}
+
+.span-menu {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.icon-bar-wp {
+    display: inline-block;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
 .navbar-brand  {
     height: 100%;
-    font-size: 28px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 44px;
-    padding: 24px 24px;
+    padding: 15px 10px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
 }
 
 .navbar-default .navbar-brand,
@@ -41,13 +69,15 @@
 /************************* INIZIO JUMBO **************************/
 
 
-.jumbo {
+.jumbo,
+.about {
     background-color: rgb(26, 188, 156);
 }
 
 .container-jumbo {
     text-align: center;
-    padding: 100px 0;
+    padding-top: 200px;
+    padding-bottom:100px;
 }
 
 .logo-jumbo {
@@ -58,7 +88,6 @@
 
 .title {
     max-width: 100%;
-    font-size: 50px;
     font-weight: 700;
 }
 
@@ -67,9 +96,7 @@
 }
 
 .star {
-    width: 100%;
     font-size: 32px;
-    font-weight: 400;
 }
 
 .star-white {
@@ -82,7 +109,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .line {
     width: 100%;
@@ -109,6 +135,7 @@
     width: 100%;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .color-title-blue {
@@ -128,11 +155,149 @@
 }
 
 .grid-img img {
-    max-width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 80%;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-
-
 /************************* FINE PORTFOLIO **************************/
+
+/************************* INIZIO ABOUT **************************/
+.paragraphs-about {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+.paragraphs-about p{
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.btn-about {
+    margin-top: 20px;
+}
+.btn-about a {
+    display: inline-block;
+    padding: 16px 28px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-about a:hover {
+    background-color: #f8f8f8;
+    color: #000;
+}
+/************************* FINE ABOUT **************************/
+
+/************************* INIZIO CONTACT ME **************************/
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: initial;
+}
+
+.form-control {
+    padding: 30px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn-default {
+    padding: 20px;
+    background-color: rgb(26, 188, 156);
+    color: #fff;
+    font-size: 20px;
+}
+
+/************************* FINE CONTACT ME **************************/
+
+/************************* INIZIO FOOTER **************************/
+
+footer .row {
+    padding: 50px 0;
+}
+
+.footer-top {
+    background-color: #2c3e50;
+}
+
+.footer-bottom {
+    background-color: #212529;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.location,
+.social,
+.about-freelancer {
+    color: #fff;
+    text-align: center;
+}
+
+.location h3,
+.social h3,
+.about-freelancer h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.location p,
+.social p,
+.about-freelancer p{
+    font-size: 21px;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social li {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+
+.social a {
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.social li:hover {
+    background-color: #fff;
+}
+
+.social li a:hover{
+    color: #000;
+}
+
+.about-freelancer a {
+    color: rgb(26, 188, 156);
+}
+
+
+/************************* FINE FOOTER **************************/
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        padding: 25px 25px;
+    }
+}
