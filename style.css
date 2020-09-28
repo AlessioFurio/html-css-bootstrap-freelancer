@@ -174,6 +174,7 @@
 .overlay {
     width: 80%;
     position: relative;
+    margin: auto;
 }
 
 .overlay-img-portfolio {
@@ -346,11 +347,6 @@ footer .row {
 
 
 /************************* FINE FOOTER **************************/
-@media screen and (max-width: 991px) {
-    .overlay img {
-        max-width: 70%;
-    }
-}
 @media screen and (min-width: 768px) {
     .navbar-brand {
         padding: 25px 25px;
