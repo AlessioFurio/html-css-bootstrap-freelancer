@@ -258,6 +258,30 @@ form {
     box-shadow: none;
 }
 
+.form-control:focus::placeholder {
+    color: transparent;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group span {
+    color: rgb(26, 188, 156);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+[placeholder="Name"]:focus + span,
+[placeholder="Email Address"]:focus + span,
+[placeholder="Phone Number"]:focus + span,
+[placeholder="Message"]:focus + span
+{
+    opacity: 1;
+}
+
 .btn-default {
     padding: 20px;
     background-color: rgb(26, 188, 156);
